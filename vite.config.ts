@@ -5,3 +5,7 @@ export default defineConfig({
   plugins: [react()],
   base: "/AboutMe.dev-master/", // <-- match your GitHub repo name
 });
+server: {
+  host: true,
+  port: 3000
+}
