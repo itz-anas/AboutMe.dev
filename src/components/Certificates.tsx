@@ -18,10 +18,10 @@ const fadeIn = (direction: string = "up", delay: number = 0.1) => ({
 });
 
 // Dynamically import all images from the certificates folder
-const imageModules = import.meta.glob(
-  "../../assets/images/certificates/*.png",
-  { eager: true }
-);
+const imageModules = import.meta.glob("../../assets/images/certificates/*.png", {
+  eager: true,
+});
+
 
 
 // Certificate image names
